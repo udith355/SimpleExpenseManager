@@ -18,16 +18,19 @@ package lk.ac.mrt.cse.dbs.simpleexpensemanager.control;
 
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.AccountDAO;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.TransactionDAO;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl.DatabaseOperator;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl.InMemoryAccountDAO;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl.InMemoryTransactionDAO;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
 
 /**
- *
+ *N O T    I N    U S E
  */
 public class InMemoryDemoExpenseManager extends ExpenseManager {
 
+    private static DatabaseOperator db;
     public InMemoryDemoExpenseManager() {
+        //db = database;
         setup();
     }
 
@@ -39,6 +42,7 @@ public class InMemoryDemoExpenseManager extends ExpenseManager {
         setTransactionsDAO(inMemoryTransactionDAO);
 
         AccountDAO inMemoryAccountDAO = new InMemoryAccountDAO();
+//        AccountDAO inMemoryAccountDAO = new PersistentAccountDAO(db);
         setAccountsDAO(inMemoryAccountDAO);
 
         // dummy data

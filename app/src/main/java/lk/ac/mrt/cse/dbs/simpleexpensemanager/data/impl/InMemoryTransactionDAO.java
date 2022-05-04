@@ -28,6 +28,11 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
  * This is an In-Memory implementation of TransactionDAO interface. This is not a persistent storage. All the
  * transaction logs are stored in a LinkedList in memory.
  */
+
+/**
+ * N O T    I N    U S E
+ */
+
 public class InMemoryTransactionDAO implements TransactionDAO {
     private final List<Transaction> transactions;
 
