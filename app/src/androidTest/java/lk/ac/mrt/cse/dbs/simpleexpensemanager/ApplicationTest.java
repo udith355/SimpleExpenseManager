@@ -49,10 +49,18 @@ public class ApplicationTest {
     @Test
     public void testAddingAcount() {
 
-//        Account testAcc = new Account("355", "BOC", "Udith", 4500);
-//        List<String> testList = expenseManager.getAccountNumbersList();
+        Account testAcc = new Account("355", "BOC", "Udith", 4500);
+        List<String> testList = expenseManager.getAccountNumbersList();
         assertTrue(true);
     }
+
+//    @Test
+//    public void testRemovingAcount() {
+//
+//        Account testAcc = new Account("355", "BOC", "Udith", 4500);
+//        List<String> testList = expenseManager.getAccountNumbersList();
+//        assertTrue(true);
+//    }
 
 
 }
