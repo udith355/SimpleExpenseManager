@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\Udith CSE\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Udith CSE\\AndroidStudioProjects\\SimpleExpenseManager\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+=======
+            "outputFile": "C:\\Users\\Udith CSE\\AndroidStudioProjects\\SE_assignment\\SimpleExpenseManager\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Udith CSE\\AndroidStudioProjects\\SE_assignment\\SimpleExpenseManager\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+>>>>>>> f7282a6f6bf295e72e6cef3096d7e37e2e7eaf8e
                     "from": {
                         "startLines": "20",
                         "startColumns": "4",

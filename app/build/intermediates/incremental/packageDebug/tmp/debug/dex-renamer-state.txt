@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Tue May 17 16:48:10 IST 2022
 base.0=C\:\\Users\\Udith CSE\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+=======
+#Tue May 17 12:17:02 IST 2022
+base.0=C\:\\Users\\Udith CSE\\AndroidStudioProjects\\SE_assignment\\SimpleExpenseManager\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+>>>>>>> f7282a6f6bf295e72e6cef3096d7e37e2e7eaf8e
 renamed.0=classes.dex
 path.0=classes.dex

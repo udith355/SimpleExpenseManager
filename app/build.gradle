@@ -42,7 +42,13 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support:design:26.1.0'
 
+<<<<<<< HEAD
     androidTestImplementation 'androidx.test:core:1.4.1-alpha06' ;
     androidTestImplementation 'androidx.test.ext:junit:1.1.4-alpha06' ;
     androidTestImplementation 'androidx.test:runner:1.5.0-alpha03' ;
+=======
+    androidTestImplementation 'androidx.test:core:1.4.1-alpha06'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4-alpha06'
+    androidTestImplementation 'androidx.test:runner:1.5.0-alpha03'
+>>>>>>> f7282a6f6bf295e72e6cef3096d7e37e2e7eaf8e
 }

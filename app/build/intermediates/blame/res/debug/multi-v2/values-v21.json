@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Udith CSE\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\Udith CSE\\AndroidStudioProjects\\SE_assignment\\SimpleExpenseManager\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Udith CSE\\.gradle\\caches\\transforms-2\\files-2.1\\45fdf18415ac29f5dc7e994e4d5d0d33\\support-compat-26.1.0\\res\\values-v21\\values-v21.xml",
@@ -23,6 +23,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Udith CSE\\AndroidStudioProjects\\SE_assignment\\SimpleExpenseManager\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "722",
+                        "endLines": "23",
+                        "endColumns": "12",
+                        "endOffsets": "1023"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "354",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "650"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Udith CSE\\.gradle\\caches\\transforms-2\\files-2.1\\cc9e32cce5fa5263c0f6e37e9c4e6490\\design-26.1.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5",
@@ -39,25 +58,6 @@
                         "endLines": "172,234",
                         "endColumns": "12,96",
                         "endOffsets": "13084,17520"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Udith CSE\\AndroidStudioProjects\\SimpleExpenseManager\\app\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "18",
-                        "startColumns": "4",
-                        "startOffsets": "722",
-                        "endLines": "23",
-                        "endColumns": "12",
-                        "endOffsets": "1023"
-                    },
-                    "to": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "354",
-                        "endLines": "11",
-                        "endColumns": "12",
-                        "endOffsets": "650"
                     }
                 },
                 {
