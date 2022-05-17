@@ -1,11 +1,7 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
             "outputFile": "C:\\Users\\Udith CSE\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-de\\values-de.xml",
-=======
-            "outputFile": "C:\\Users\\Udith CSE\\AndroidStudioProjects\\SE_assignment\\SimpleExpenseManager\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-de\\values-de.xml",
->>>>>>> f7282a6f6bf295e72e6cef3096d7e37e2e7eaf8e
             "map": [
                 {
                     "source": "C:\\Users\\Udith CSE\\.gradle\\caches\\transforms-2\\files-2.1\\22201284f06052f57e5af9bcb65a52a3\\appcompat-v7-26.1.0\\res\\values-de\\values-de.xml",

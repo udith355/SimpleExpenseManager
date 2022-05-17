@@ -28,18 +28,24 @@ import androidx.test.core.app.ApplicationProvider;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.ExpenseManager;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.PersistentExpenseManager;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.TransactionDAO;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.exception.InvalidAccountException;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl.PersistentTransactionDAO;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
 
 /**
  * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
  */
 public class ApplicationTest {
-<<<<<<< HEAD
-=======
     private ExpenseManager expenseManager;
 
     @Before
@@ -51,19 +57,45 @@ public class ApplicationTest {
     @Test
     public void testAddingAcount() {
 
-        Account testAcc = new Account("355", "BOC", "Udith", 4500);
-        List<String> testList = expenseManager.getAccountNumbersList();
-        assertTrue(true);
+        //test adding
+        String accNo = "355";
+        expenseManager.addAccount(accNo, "BOC", "Udith", 1000);
+        boolean res = expenseManager.getAccountNumbersList().contains(accNo);
+
+        //test removing
+        try {
+            expenseManager.getAccountsDAO().removeAccount(accNo);
+            boolean res_ = !(expenseManager.getAccountNumbersList().contains(accNo));
+            assertTrue(res && res_);
+        } catch (InvalidAccountException e) {
+            assertTrue(false);
+        }
     }
 
-//    @Test
-//    public void testRemovingAcount() {
-//
-//        Account testAcc = new Account("355", "BOC", "Udith", 4500);
-//        List<String> testList = expenseManager.getAccountNumbersList();
-//        assertTrue(true);
-//    }
 
->>>>>>> f7282a6f6bf295e72e6cef3096d7e37e2e7eaf8e
+    @Test
+    public void testTransactions() {
 
+        //test transaction logging
+        String accNo = "355";
+        try {
+
+            expenseManager.addAccount(accNo, "BOC", "Udith", 1000);
+            expenseManager.updateAccountBalance(accNo, 17, 5, 2022, ExpenseType.INCOME, "1000");
+            List<Transaction> transactions = expenseManager.getTransactionLogs();
+            boolean res = false;
+            for (Transaction t : transactions) {
+                if (t.getAccountNo().equals(accNo)) {
+                    res = res || true;
+                }
+            }
+            assertTrue(res);
+        } catch (InvalidAccountException e) {
+            assertTrue(false);
+        }
+
+
+
+
+    }
 }
