@@ -15,9 +15,6 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
-        
-     -  name: Change wrapper permissions
-        run: chmod +x ./gradlew
 
       - name: Gradle cache
         uses: gradle/gradle-build-action@v2
