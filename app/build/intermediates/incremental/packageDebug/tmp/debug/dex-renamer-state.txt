@@ -1,4 +1,4 @@
-#Wed May 04 05:34:14 IST 2022
-base.0=C\:\\Users\\Udith CSE\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Tue May 17 12:17:02 IST 2022
+base.0=C\:\\Users\\Udith CSE\\AndroidStudioProjects\\SE_assignment\\SimpleExpenseManager\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
