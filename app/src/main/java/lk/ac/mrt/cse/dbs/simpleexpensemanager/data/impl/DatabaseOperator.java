@@ -23,7 +23,7 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
 
 public abstract class DatabaseOperator extends SQLiteOpenHelper implements Serializable{
 
-    public static final String DB_NAME = "190310J_expenseManager.db";  
+    public static final String DB_NAME = "190310J_expenseManager.db";
     public static final String TABLE1 = "account_info";
     public static final String TABLE2 = "transaction_info";
     private static int version = 1;
